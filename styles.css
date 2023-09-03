@@ -1,0 +1,60 @@
+* {
+    margin: 0%;
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(60, 172, 172);
+    padding:30px;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+}
+nav li{
+    margin-left: 20px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: bisque;
+}
+.product{
+    display: grid ;
+    grid-template-columns: auto auto auto;
+    padding:0px;
+}
+.box{
+    
+    margin: 5px;
+    padding: 40px;
+    height: 400px;
+    width: 400px;
+    border: 2px solid rgb(251, 0, 255);
+}
+img{
+    height:200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+img hover{
+    transform: scale(0,7);
+}
+
+footer{
+    text-align: center;
+    margin-top: 10%;
+    
+}
+button{
+    background-color: rgb(60, 165, 172);
+    color:bisque;
+}
